@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\GiftCard\Ui\DataProvider\Product\Form\Modifier\GiftCard">
+        <plugin sortOrder="1" name="CycladGiftCardFixOpenAmountGiftCard" type="Cyclad\GiftCardFixOpenAmount\Plugin\Ui\DataProvider\Product\Form\Modifier\GiftCardPlugin"/>
+    </type>
+</config>

@@ -1,0 +1,40 @@
+{
+    "name": "Cyclad/giftcard",
+    "description": "",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        
+        "magento/magento-composer-installer": "*",
+        "magento/module-gift-card": "101.1.*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cyclad\\GiftCardFixOpenAmount\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Cyclad/GiftCardFixOpenAmount"
+            ]
+        ]
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}
